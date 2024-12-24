@@ -1,9 +1,24 @@
-# Build
+![screen-capture](https://github.com/user-attachments/assets/75026775-99e3-4f22-b6f4-9ef54125346e)
+
+# Getting Started
+
+## Build
+
+Create a build directory and run CMake:
 
 ```bash
+mkdir build
 cd build
+cmake ..
+```
+
+Compile the application:
+
+```bash
 cmake --build .
 ```
+
+# Emscripten Web Target
 
 ## Setup emscripten
 

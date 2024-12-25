@@ -34,6 +34,7 @@ int main() {
             EndMode3D();
 
             DrawText("Use WASD and Mouse to move the camera", 10, 10, 20, DARKGRAY);
+            DrawFPS(10, 40);
         EndDrawing();
     }
 
